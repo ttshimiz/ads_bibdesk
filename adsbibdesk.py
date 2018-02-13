@@ -1455,7 +1455,7 @@ class ArXivParser(object):
         self.Abstract = info['summary']#.encode('utf-8')
         self.AdsComment = (info['comment'].replace('"', "'")#.encode('utf-8') \
                            if 'comment' in info else "")
-        self.Jornal = 'ArXiv e-prints'
+        self.Journal = 'ArXiv e-prints'
         self.ArchivePrefix = 'arXiv'
         self.ArXivURL = info['id']
         self.Eprint = info['id'].split('abs/')[-1]
