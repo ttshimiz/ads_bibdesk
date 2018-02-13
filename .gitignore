@@ -6,3 +6,6 @@ adsbibdesk.egg-info/
 build/adsbibdesk/build/
 build/adsbibdesk/dist/
 build/adsbibdesk/adsbibdesk.py
+build/Add to Bibdesk.workflow/*//
+dist/*.egg
+build/lib/adsbibdesk.py
